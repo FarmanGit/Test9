@@ -27,6 +27,7 @@ int init(void)
   	BREAKPOINT();
   }
   printk("Hello, embedded world!\n");
+  printk("Modification done here buddy!\n");
   return 0;
 }
 
